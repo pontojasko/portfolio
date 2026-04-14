@@ -52,7 +52,7 @@ export default function Projeto(props: props) {
         </a>
       </div>
 
-      <p className="px-12 py-1  whitespace-pre-line">{props.descricao}</p>
+      <p className="px-5 py-1 sm:px-9 whitespace-pre-line">{props.descricao}</p>
       <hr className="h-0.5 my-5"></hr>
     </div>
   );
