@@ -16,10 +16,10 @@ export default function Picture() {
         width={90}
         height={90}
         className="rounded-sm object-cover"
-        src={hover ? "/dancing.gif" : "/picture.jpg"}
+        src={hover ? "/dancing.gif" : "/picture.png"}
         alt="foto"
         draggable="false"
-        title="this is my father in 60s. look the way he dances lmao"
+        title="this is my father in 60s."
       ></Image>
     </div>
   );

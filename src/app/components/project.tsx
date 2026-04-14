@@ -26,24 +26,34 @@ export default function Projeto(props: props) {
       <a
         href={props.link}
         draggable="false"
-        className="text-xl p-4 tracking-tighter"
+        className="text-xl p-4 tracking-tighter  text-amber-950 hover:underline underline-offset-3 decoration-2 transition-all"
       >
         {props.titulo}
       </a>
       <div className="flex justify-center py-3">
-        <a href={props.link} draggable="false">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative group bg-zinc-700 rounded-sm"
+          href={props.link}
+          draggable="false"
+        >
           <Image
             width={600}
             height={200}
-            className=" rounded-sm"
+            className="rounded-sm group-hover:opacity-80"
             src={props.foto}
             alt="foto"
             draggable="false"
           ></Image>
+          <p className="absolute   text-amber-50 text-shadow-sm/50 opacity-0 group-hover:opacity-100 inset-0 flex items-center justify-center">
+            tap to see
+          </p>
         </a>
       </div>
 
-      <p className="px-12 py-1 pb-10">{props.descricao}</p>
+      <p className="px-12 py-1  whitespace-pre-line">{props.descricao}</p>
+      <hr className="h-0.5 my-5"></hr>
     </div>
   );
 }

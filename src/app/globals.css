@@ -57,13 +57,14 @@
 
 body {
     font-family: "OpenDyslexic";
+    scroll-behavior: smooth;
 }
 
 .Image {
     user-select: none;
 }
 u {
-    text-decoration-color: chocolate;
+    text-decoration-color: #3d2015;
 }
 
 :root {

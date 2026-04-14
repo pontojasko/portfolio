@@ -6,10 +6,7 @@ import Picture from "./components/profilepicture";
 
 export default function Home() {
   return (
-    <div
-      title="ucranian surname lmao"
-      className="text-maneiro flex flex-col p-9 items-center h-full w-full selection:bg-amber-900 selection:text-amber-50"
-    >
+    <div className="text-maneiro flex flex-col p-9 items-center h-full w-full selection:bg-amber-900 selection:text-amber-50">
       <div className="flex flex-col md:w-2xl w-full h-full">
         <header className="flex flex-row w-full h-full">
           <Picture></Picture>
@@ -49,36 +46,52 @@ export default function Home() {
           <br />
           <br /> I'm a generalist software engineer and an analysis and systems
           development student at <u>IFSP</u>.
-          <br />
-          <br />
-          In 2025, I founded the PUCPR Hacking Club, a programming club at my
-          university with 40+ devs. Currently, I conduct research on deep
-          learning models for network intrusion detection.
-          <br />
-          <br />I was nominated for the Dean's List of the PUCPR Polytechnic
-          School in recognition of my academic performance, being the only
-          student selected from the Computer Science undergraduate program.
         </p>
-        <h2 className="text-2xl tracking-tighter my-3 ">projetos</h2>
+        <hr className="h-0.5"></hr>
+        <h2 className="text-2xl tracking-tighter my-3  text-amber-950 ">
+          projects
+        </h2>
 
         <Projeto
           titulo="benius"
-          descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
-          sapien mauris. Ut pharetra facilisis elit non tempus. Nulla nulla"
+          descricao={`an anonymous mini-social-network-twitter-like experience.
+
+          every f5 or simple-tap on the post-it, the message swaps to a random one.
+          double-clicking it enables you to send your own message.
+
+          stack:
+          * selfhosted java backend and postgresql database
+          * nextjs react retro frontend`}
           foto="/beniius.png"
           link="https://benius.jasko.dev/"
         ></Projeto>
         <Projeto
           titulo="tasty"
-          descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
-          sapien mauris. Ut pharetra facilisis elit non tempus. Nulla nulla"
+          descricao={`a web-based playground-terminal simulator built with java. designed to handle commands as independent execution units, mimicking the behavior of a native bash environment.
+
+users can sign up and log in;
+call a random message from benius;
+and chat with an simple AI.
+
+stack:
+* selfhosted java backend and postgresql database
+* nextjs react minimal frontend
+* groq AI powered by a low-level java httprequest implementation.
+
+`}
           foto="/tty.png"
           link="https://tasty.jasko.dev/"
         ></Projeto>
         <Projeto
           titulo="yakihami"
-          descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
-          sapien mauris. Ut pharetra facilisis elit non tempus. Nulla nulla"
+          descricao={`a point-of-sale and digital menu system built for a local food shop.
+
+          customers can place orders with dynamic delivery fees based on distance;
+          admins can manage the incoming orders queue, view history, and print receipts.
+
+          stack:
+          * nextjs fullstack (nodejs backend)
+          * postgresql database`}
           foto="/yakihami.png"
           link="https://yakihami.jasko.dev/"
         ></Projeto>
