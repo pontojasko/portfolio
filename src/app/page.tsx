@@ -34,7 +34,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="flex justify-end">
-              <Link href="mdx" className="">
+              <Link href="talk" className="">
                 talk
               </Link>
             </div>
@@ -42,10 +42,14 @@ export default function Home() {
         </header>
 
         <p className="p-2 py-5 ">
-          <b>Whats up?</b> I'm <u>Heitor Jasko!</u>
+          whats up? my name is Heitor Jasko.
           <br />
-          <br /> I'm a generalist software engineer and an analysis and systems
+          <br /> i'm a generalist software engineer and an analysis and systems
           development student at <u>IFSP</u>.
+          <br /> <br />
+          lifelong creator. curiosity-driven learner.
+          <br />
+          and always engineering java solutions on my personal server.
         </p>
         <hr className="h-0.5"></hr>
         <h2 className="text-2xl tracking-tighter my-3  text-amber-950 ">
