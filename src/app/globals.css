@@ -64,6 +64,33 @@ body {
 u {
     text-decoration-color: #3d2015;
 }
+/* Configuração para Firefox (suporta apenas largura e cores básicas) */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px; /* Bem fina */
+    height: 12px; /* Para scroll horizontal */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #451a03;
+    border-radius: 20px;
+    /* Removendo a borda grossa para ela não "sumir" sendo fina */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--tertiary);
+}
+
+/* Opcional: Mostrar a track apenas quando o mouse estiver em cima do container */
+/* Isso deixa o visual ainda mais minimalista quando não está em uso */
+*:hover::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+}
 
 :root {
     --background: #f6eee3;
