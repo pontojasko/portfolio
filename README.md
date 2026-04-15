@@ -6,6 +6,9 @@
 
 <p align="center">my personal portfolio — built with next.js, react, tailwind, and mdx.</p>
 
+<img width="1920" height="977" alt="image" src="https://github.com/user-attachments/assets/dfa821bb-87d4-46a7-b4b2-1904166c446b" />
+
+
 ---
 
 ### what's inside
@@ -17,13 +20,6 @@
 ### stack
 
 next.js 16 · react 19 · tailwind v4 · mdx · biome
-
-### running locally
-
-```bash
-bun install
-bun dev
-```
 
 ### live
 
