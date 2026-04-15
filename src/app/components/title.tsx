@@ -7,7 +7,7 @@ export default function Title() {
 
   return (
     <h1
-      className="text-2xl font-bold w-fit text-amber-900 tracking-widest font-stretch-extra-expanded cursor-default select-none "
+      className="text-2xl font-black w-fit text-amber-900   cursor-default select-none "
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >

@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "@fontsource/opendyslexic";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -56,7 +55,6 @@
 }
 
 body {
-    font-family: "OpenDyslexic";
     scroll-behavior: smooth;
 }
 

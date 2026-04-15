@@ -24,17 +24,20 @@ export default function Home() {
 
           <nav className="flex flex-col justify-center ">
             <div className="flex justify-end">
-              <Link href="mdx" className="">
+              <Link href="articles" className="hover:text-amber-900">
                 articles
               </Link>
             </div>
             <div className="flex justify-end ">
-              <Link href="https://github.com/pontojasko" className="">
+              <Link
+                href="https://github.com/pontojasko"
+                className="hover:text-amber-900"
+              >
                 github
               </Link>
             </div>
             <div className="flex justify-end">
-              <Link href="talk" className="">
+              <Link href="talk" className="hover:text-amber-900">
                 talk
               </Link>
             </div>
@@ -44,12 +47,16 @@ export default function Home() {
         <p className="p-2 py-5 ">
           whats up? my name is Heitor Jasko.
           <br />
-          <br /> i'm a generalist software engineer and an analysis and systems
-          development student at <u>IFSP</u>.
+          i'm a software engineer and an analysis and systems development
+          student at <u>IFSP</u>.
           <br /> <br />
-          lifelong creator. curiosity-driven learner.
-          <br />
-          and always engineering java solutions on my personal server.
+          passionate about building asynchronous and decoupled backends using
+          clean code standards, and always engineering resilient java
+          microservices on{" "}
+          <Link className="hover:text-amber-900" href="articles/2">
+            <u> my personal server</u>
+          </Link>
+          .
         </p>
         <hr className="h-0.5"></hr>
         <h2 className="text-2xl tracking-tighter my-3  text-amber-950 ">
@@ -58,44 +65,45 @@ export default function Home() {
 
         <Projeto
           titulo="benius"
-          descricao={`an anonymous mini-social-network-twitter-like experience.
+          descricao={`overview:
+an anonymous mini-social-network-twitter-like experience.
 
-          every f5 or simple-tap on the post-it, the message swaps to a random one.
-          double-clicking it enables you to send your own message.
+every f5 or simple-tap on the post-it, the message swaps to a random one. double-clicking it enables you to send your own message.
+built with clean code standards and a clear separation of concerns to ensure a highly scalable and decoupled backend.
 
-          stack:
-          * selfhosted java backend and postgresql database
-          * nextjs react retro frontend`}
+technologies:
+* backend: java, with postgresql database
+* frontend: nextjs, react`}
           foto="/beniius.png"
           link="https://benius.jasko.dev/"
         ></Projeto>
         <Projeto
           titulo="tasty"
-          descricao={`a web-based playground-terminal simulator built with java. designed to handle commands as independent execution units, mimicking the behavior of a native bash environment.
+          descricao={`overview:
+a web-based playground-terminal simulator.
 
-users can sign up and log in;
-call a random message from benius;
-and chat with an simple AI.
+designed to handle commands as independent execution units following SOLID principles.
+users can safely authenticate, call a message from Benius API, and chat with an AI asynchronously.
 
-stack:
-* selfhosted java backend and postgresql database
-* nextjs react minimal frontend
-* groq AI powered by a low-level java httprequest implementation.
-
-`}
+technologies:
+* backend: java with postgresql database
+* frontend: nextjs, react
+* external apis: groq API low-level implementation`}
           foto="/tty.png"
           link="https://tasty.jasko.dev/"
         ></Projeto>
         <Projeto
           titulo="yakihami"
-          descricao={`a point-of-sale and digital menu system built for a local food shop.
+          descricao={`overview:
+a point-of-sale and digital menu system built for a local food shop.
 
-          customers can place orders with dynamic delivery fees based on distance;
-          admins can manage the incoming orders queue, view history, and print receipts.
+customers place orders with dynamic delivery fees computed on the fly.
+admins manage the incoming event-driven orders queue, view history, and print receipts.
+optimized for low latency and high availability.
 
-          stack:
-          * nextjs fullstack (nodejs backend)
-          * postgresql database`}
+technologies:
+* backend: event-driven node.js architecture via nextjs serverless functions, integrated with postgresql database
+* frontend: nextjs, react`}
           foto="/yakihami.png"
           link="https://yakihami.jasko.dev/"
         ></Projeto>
