@@ -6,10 +6,10 @@ import { cn } from "@/lib/utils";
 const serif = Source_Code_Pro({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Heitor Jasko",
+  title: "Jasko",
   description: "Professional Portfolio :)",
   openGraph: {
-    title: "Jasko",
+    title: "Heitor Jasko",
     description: "Portfolio",
     url: "https://jasko.dev",
     siteName: "Jasko",
