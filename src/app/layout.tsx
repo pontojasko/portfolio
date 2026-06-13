@@ -6,8 +6,20 @@ import { cn } from "@/lib/utils";
 const serif = Source_Code_Pro({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "jasko",
-  description: "meu portfolio",
+  title: "Heitor Jasko",
+  description: "Professional Portfolio :)",
+  openGraph: {
+    title: "Jasko",
+    description: "Portfolio",
+    url: "https://jasko.dev",
+    siteName: "Jasko",
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
