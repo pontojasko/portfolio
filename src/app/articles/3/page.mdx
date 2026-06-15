@@ -1,0 +1,17 @@
+# benius - my micro-social network
+
+the idea was born from a pun with "bad news" that i had while staring at the wall. the initial premise was simple: "what if i made a website that showed a piece of 'bad news' every time it was accessed?". the concept ended up evolving and became an anonymous micro-social network experience, with fast and minimalist dynamics.
+
+in practice, the interaction is super direct: you come across a sticky note in a pixel art aesthetic (referencing the gameboy color palette).
+
+with a simple tap or by hitting f5, a random message from another user is loaded. with a double click, the space is yours to write and send your own message, completely anonymously.
+
+but the real focus of this project was behind the scenes. i took advantage of the application to build a solid architecture and apply good software engineering practices with a modern stack:
+
+* **backend:** developed in java springboot, guided by clean code patterns and a clear separation of responsibilities to ensure scalability and decoupling.
+* **frontend:** built with react, next.js, and postgresql, delivering a fast and optimized user interface.
+* **infrastructure & ci/cd:** i deployed the entire environment on my own linux server, containerizing the application with docker and configuring nginx as a reverse proxy. to top it off, i set up pipelines in github actions: now, every push to the repository triggers an automatic deploy straight to the server.
+
+it was an excellent challenge to integrate end-to-end fullstack development with real and automated infrastructure management. feel free to analyze the project and give me feedback!
+
+[https://benius.jasko.dev/](https://benius.jasko.dev/)
