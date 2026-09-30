@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://jasko.dev/sitemap.xml",
+    sitemap: "https://jasko.tech/sitemap.xml",
   };
 }

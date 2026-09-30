@@ -2,8 +2,8 @@
   <img src="public/picture.png" width="80" />
 </p>
 
-<a href="https://jasko.dev/">
-<h3 align="center">jasko.dev</h3>
+<a href="https://jasko.tech/">
+<h3 align="center">jasko.tech</h3>
 </a>
 
 <p align="center">my personal portfolio</p>
@@ -26,4 +26,4 @@ next.js 16 · react 19 · tailwind v4 · mdx
 
 ### live
 
-[jasko.dev](https://jasko.dev)
+[jasko.tech](https://jasko.tech)

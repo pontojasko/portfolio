@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Heitor Jasko",
     description: "Portfolio",
-    url: "https://jasko.dev",
+    url: "https://jasko.tech",
     siteName: "Jasko",
     locale: "en_US",
     type: "website",

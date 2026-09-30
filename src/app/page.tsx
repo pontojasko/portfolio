@@ -75,7 +75,7 @@ technologies:
 * backend: java, with postgresql database
 * frontend: nextjs, react`}
           foto="/beniius.png"
-          link="https://benius.jasko.dev/"
+          link="https://benius.jasko.tech/"
         ></Projeto>
         <Projeto
           titulo="tasty"
@@ -90,7 +90,7 @@ technologies:
 * frontend: nextjs, react
 * external apis: groq API low-level implementation`}
           foto="/tty.png"
-          link="https://tasty.jasko.dev/"
+          link="https://tasty.jasko.tech/"
         ></Projeto>
         <Projeto
           titulo="yakihami"
@@ -105,7 +105,7 @@ technologies:
 * backend: event-driven node.js architecture via nextjs serverless functions, integrated with postgresql database
 * frontend: nextjs, react`}
           foto="/yakihami.png"
-          link="https://yakihami.jasko.dev/"
+          link="https://yakihami.jasko.tech/"
         ></Projeto>
       </div>
     </div>
